@@ -25,15 +25,19 @@ export const aboutData = {
     ],
     connect: [
         {
-            url: '#',
+            url: 'https://t.me/mariiablvnk',
             bootstrapIcon: 'bi bi-telegram',
         },
         {
-            url: '#',
+            url: 'https://www.linkedin.com/in/maria-bulavenko-55669a239/',
             bootstrapIcon: 'bi bi-linkedin',
         },
         {
-            url: '#',
+            url: 'https://github.com/Mariiablvnk/',
+            bootstrapIcon: 'bi bi-github',
+        },
+        {
+            url: 'https://www.instagram.com/posst.blue',
             bootstrapIcon: 'bi bi-instagram',
         },
     ]
