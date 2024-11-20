@@ -58,7 +58,7 @@ const Contact = () => {
                         </div>
                         { submitStatus && submitStatus == 'success' ? (
                                     <span className='pt-2 mt-2 flex text-left' id="success">Thank you! Your Message has been sent.</span>
-                                ): (
+                                ): submitStatus && submitStatus !== 'success' (
                                     <span id="error">Something went wrong. Please try again!</span>
                                 )}
                         {/* Contact Form */}
